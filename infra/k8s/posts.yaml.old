@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: posts
-      image: microservices/posts:0.0.1
-      imagePullPolicy: Never
+      image: dockerninja24/posts:0.0.2
+      imagePullPolicy: IfNotPresent
